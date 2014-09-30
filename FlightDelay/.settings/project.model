@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.actuate.istudio.analysis.model:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.actuate.istudio.analysis.model="http:///com.actuate.istudio.analysis.model.ecore" name="FlightDelay">
+  <files xsi:type="com.actuate.istudio.analysis.model:RptLibrary" name="ThemesReportItems3.rptlibrary" path="/FlightDelay/Report Libraries/ThemesReportItems3.rptlibrary" reports="//@files.1"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="FlightDelayAnalysis.rptdesign" path="/FlightDelay/Report Designs/FlightDelayAnalysis.rptdesign" libraries="//@files.0">
+    <dataSets name="Data Set">
+      <columns name="airport"/>
+      <columns name="airport_city"/>
+      <columns name="airport_state"/>
+      <columns name="airport_name"/>
+      <columns name="total_flights"/>
+      <columns name="total_delays"/>
+      <columns name="total_delay_minutes"/>
+    </dataSets>
+    <dataSets name="Data Set1">
+      <columns name="airport"/>
+      <columns name="airport_city"/>
+      <columns name="airport_state"/>
+      <columns name="airport_name"/>
+      <columns name="total_flights"/>
+      <columns name="total_delays"/>
+      <columns name="total_delay_minutes"/>
+    </dataSets>
+  </files>
+</com.actuate.istudio.analysis.model:Project>
